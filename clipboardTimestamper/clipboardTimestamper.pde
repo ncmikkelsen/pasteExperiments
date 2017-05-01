@@ -22,11 +22,9 @@ String getTime() {
   time += minute();
   time += ":";
   time += second();
-  //time += ":";
-  //time += millis();
-  
+
   time += " ";
-  
+
   time += day();
   time += "_";
   time += month();
